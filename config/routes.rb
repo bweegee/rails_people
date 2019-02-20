@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'static_people#home'
+  root 'static_pages#home'
 
-  get '/about', to: 'static_people#about'
+  get '/about', to: 'static_pages#about'
 
   resources :people
 end
